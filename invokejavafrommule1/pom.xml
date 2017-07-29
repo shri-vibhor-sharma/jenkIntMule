@@ -27,7 +27,7 @@
 					<!-- This tag will not be required as Maven picksup the artifact from 
 						"target" folder by default -->
 					<application>${artifactLocation}/${artifactId}-${version}.zip</application>
-					<username>tzar.software</username>
+					<username>tzarsoftware</username>
 					<password>Soumya92!!</password>
 					<deploymentType>cloudhub</deploymentType>
 					<redeploy>true</redeploy>
