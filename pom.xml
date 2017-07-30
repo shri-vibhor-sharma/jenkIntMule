@@ -1,21 +1,3 @@
-Skip to content
- 
-Search…
-All gists
-GitHub
-New gist
-@shri-vibhor-sharma
-  Star 0
-  Fork 0
-  @tjsnelltjsnell/gist:8147194
-Created 4 years ago
-Embed  
-<script src="https://gist.github.com/tjsnell/8147194.js"></script>
-  Download ZIP
- Code  Revisions 1
-Sample Mule POM file
-Raw
- gistfile1.xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
