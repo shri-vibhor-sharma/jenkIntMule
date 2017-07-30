@@ -156,6 +156,12 @@
     </dependencies>
 
 	<repositories>
+		 <repository>
+            <id>mulesoft-releases</id>
+            <name>MuleSoft Releases Repository</name>
+            <url>http://repository.mulesoft.org/releases/</url>
+            <layout>default</layout>
+        </repository>
 		<repository>
     <id>Nexus</id>
     <name>Nexus Public Repository</name>
@@ -168,12 +174,7 @@
             <url>http://repo1.maven.org/maven2/</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>mulesoft-releases</id>
-            <name>MuleSoft Releases Repository</name>
-            <url>http://repository.mulesoft.org/releases/</url>
-            <layout>default</layout>
-        </repository>
+       
     </repositories>
     <pluginRepositories>
         <pluginRepository>
