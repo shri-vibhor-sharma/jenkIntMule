@@ -153,9 +153,15 @@
          <artifactId>edi</artifactId>
          <version>1.2.2</version>
      </dependency>
+			<dependency>
+    <groupId>org.mule.modules</groupId>
+    <artifactId>mule-module-apikit</artifactId>
+    <version>3.8.3</version>
+</dependency>
     </dependencies>
 
 	<repositories>
+	
 		 <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
