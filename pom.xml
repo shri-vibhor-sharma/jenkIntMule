@@ -34,8 +34,8 @@
 					<applicationName>${artifactId}${envName}</applicationName>
 					<environment>${environment}</environment>
 					<url>${host}</url>
-					<workerType>${workerSize}</workerType>
-					<workers>${workers}</workers>
+					<workerType>Micro</workerType>
+					<workers>1</workers>
 					<properties>
 						
 						
@@ -120,6 +120,13 @@
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
+		  
+   <repository>
+       <id>mulesoft-snapshots</id>
+       <name>MuleSoft Snapshots Repository</name>
+       <url>http://repository.mulesoft.org/snapshots/</url>
+       <layout>default</layout>
+   </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
